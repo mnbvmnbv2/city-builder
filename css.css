@@ -1,0 +1,88 @@
+body {
+	background-color: black;
+}
+
+@keyframes dodo{
+	0%{background-color: grey}
+	17%{background-color: black}
+	34%{background-color: brown}
+	51%{background-color: black}
+	68%{background-color: grey}
+	85%{background-color: black}
+	100%{background-color: grey}
+}
+
+.overlayBlock {
+	opacity: 0;
+	z-index: 10;
+	width: 50px;
+	height: 50px;
+}
+
+#left {
+	background-color: blue;
+	width: 150px;
+}
+
+p{
+	margin-top: 0px;
+}
+
+#right {
+	background-color: red;
+	width: 1750px;
+}
+
+#bottom {
+	background-color: green;
+	width: 1750px;
+	height: 80px;
+}
+
+#selectButton{
+	margin-left: 5px;
+}
+
+#chopForestButton{
+	margin-left: 5px;
+}
+
+#vindu {
+	z-index:9;
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 1900px;
+	height: 750px;
+}
+
+canvas {
+	z-index:6;
+	position: fixed;
+}
+
+#info {
+	background-color: black;
+	position: fixed;
+	margin-top: 760px;
+	height: 160px;
+	width: 1900px;
+	color: white;
+	display: flex;
+	flex: wrap;
+}
+
+button {
+	width: 105px;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+
+button:nth-child(0) {
+	margin-left: 5px;
+}
+
+image {
+	margin: 0px;
+}
